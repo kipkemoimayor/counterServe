@@ -1,0 +1,21 @@
+1.Folder backend sits the Django rest framework apis
+2.Counteserve folder host the client, written in angular 8.
+
+Getting started
+1.Frontend (ANGULAR)
+  1A. Make sure you have node and npm and is installed.
+  1B. Run npm install, to install all dependecies.
+  1C. Once done start development serve by, ng serve, command.
+  1D. The development server will boot application and serve it on http://localhost:4200/
+  1E. Follow the link to access the app.
+
+2.backend (DRF)
+  2A. Make sure you have python3 installed
+  2B. Install pip (Python package manage)
+  2C. Create a virual enviroment by python -m venv virtual
+  2D. Activate your virtual enviroment by souce virtual/bin/Activate
+  2E. Intall all packages by pip3 install requirements.txt
+  2F. Make migrations after setting up your database using postgress
+  2G. To make migrations, python manage.py makemigrations
+  2H. Migrate, python manage.py migrate,
+  2I. Run app, python manage.py runserver
